@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Installation</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-Worksans">
+    
+    <nav class="bg-zinc-50 max-w-full h-24 flex items-center gap-20 text-[#2D368F]">
+        <div class="ml-24"><img class="h-20" src="/img/GW_logo-01 1.svg" alt="GW-Logo"></div>
+
+    
+        <div class="relative right-10">   
+            <ul class="flex font-medium text-[15px] gap-8">
+            
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li class="flex items-center"><a href="#">SERVICES</a>
+                <a href="#">
+                <img src="/img/iconamoon_arrow-up-2.png" alt="">
+            </a>
+        </li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="flex items-center font-semibold h-fit text-lg">
+            <h2>(+234) 8145678909</h2>
+        </div>
+
+        <div class="mr-24"><button><img src="/img/heroicons-outline_menu-alt-3.png" alt=""></button></div>
+             
+    </nav>
+
+    <!-- My Navigation bar ends here-->
+
+     <!-- Hero Section starts here-->
+
+     <section class="max-w-full h-[700px]" style="background-image: url(../img/Close\ up\ on\ metallic\ wine\ barrels\ at\ a\ winery.png);">
+        <div class=" flex flex-col bg-[#2D368F] w-[750px] h-[447px] ml-24 pt-[80px] rounded-[18px] relative top-32">
+            <h1 class="text-[20px] text-[#F36B31] font-medium pl-16">Global Excellent</h1>
+            <h2 class="text-[60px] text-zinc-50 font-medium pl-16">Sustainable</h2><br>
+            <h2 class="text-[60px] text-zinc-50 font-bold pl-16 relative bottom-9">Oil & Gas Solutions</h2>
+            <div class="pl-16"> <a class="py-5 pl-[30px] pr-[30px] rounded-[50px] border-[1.5px] text-[20px] text-zinc-50 border-zinc-50" href="#">Learn More</a></div>
+        </div>
+
+     </section>
+
+     <section class="pt-[120px] h-[800px]">
+        <h2 class="text-[70px] font-bold text-[#2D368F] leading-[85px] ml-24">What<br>We do</h2>
+                <div class="flex gap-[20px]">
+                        <div class="bg-[#868fe0] w-[424px] h-[297px] ml-24 relative top-[135px] rounded-[20px]" 
+                        style="background-image: url(../img/Excavator\ in\ action.png); background-position: center; background-repeat: no-repeat; background-size: cover;"><h3 class="text-[20px] pl-[50px] relative top-[150px] font-semibold text-zinc-50">Inspection/<br>
+                        NDE Services</h3></div>
+
+                        <div class=" w-[424px] h-[654px]  relative bottom-[220px] rounded-[20px]" 
+                        style="background-image: url(../img/Rectangle\ 66.png); background-position: right; background-repeat: no-repeat; background-size:cover;"><h3 class="text-[20px] pl-[50px] relative top-[510px] font-semibold text-zinc-50">Inspection/<br>
+                        NDE Services</h3></div>
+
+                        <div class=" w-[390px] h-[654px] mr-24 relative bottom-[220px] rounded-[20px] flex flex-col">
+
+                            <div class=" w-[390px] h-[360px] mr-24 relative bottom-[4px] rounded-[20px] flex flex-col" 
+                        style="background-image: url(../img/Rectangle\ 64.png); background-position: right; background-repeat: no-repeat; background-size:cover;"><h3 class="font-medium text-[20px] pl-[50px] pt-[230px] text-zinc-50">Plant Optimization<br>/DebottleNecking
+                        </h3>
+                    </div>
+
+                        <div class="bg-[#2D368F] w-[390px] h-[277px] relative top-[15px] rounded-[20px]"><h3 class="font-medium text-[20px] pl-[50px] pt-[120px] text-zinc-50">
+                           Explore<br> more of our<br> services
+                        </h3><a href="#"><img class="relative left-[250px] bottom-[70px]" src="/img/teenyicons_arrow-up-solid.png" alt="arrow-icon"></a></div>
+    
+                        </div>         
+
+                </div>
+     </section>
+
+     <section class="bg-[#FEFAE7] h-[400px]">
+        <h3 class="font-bold text-[70px] text-[#2D368F] text-center leading-[100px] pt-[70px]">Solving the industry’s<br>
+        toughest issues.</h3>
+    <div class="m-auto w-[15%] relative top-[40px]">
+    <a class="py-5 pl-[30px] pr-[30px] rounded-[50px] text-[20px] text-zinc-50 border-zinc-50 bg-[#F36B31]">Learn more</a></div>
+     </section>
+
+     <section>
+        <div class="m-auto w-[85%] h-[600px] relative top-[70px] rounded-[40px]" style="background-image: url(../img/Rectangle\ 38.png); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+     </section>
+
+     <section class="mt-[270px] flex">
+    <div class="ml-24 rounded-[40px] w-[500px] h-[600px] pl-" style="background-image: url(/img/Rectangle\ 62.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    </div>
+
+    <div class="w-[600px] pl-20 ml-[40px] h-[600px]"><h3 class="text-[47px] text-[#2D368F] font-bold">We Execute<br>
+        With Excellence</h3>
+    <div class="flex items-center gap-[60px] border-b-2"><h3 class="font-semibold text-[110px] text-[#F36B31]">10</h3><h4 class="text-[30px] font-medium leading-[50px] text-[#1e1e1e]">Construction<br>Projects</h4></div>
+
+    <div class="flex items-center gap-[40px] border-b-2"><h3 class="font-semibold text-[110px] text-[#F36B31]">08</h3><h4 class="text-[30px] font-medium leading-[50px] text-[#1e1e1e]">Engineering<br>Services</h4></div>
+    <div class="flex items-center gap-[40px]"><h3 class="font-semibold text-[110px] text-[#F36B31]">05</h3><h4 class="text-[30px] font-medium leading-[50px] text-[#1e1e1e]">Project<br>Management</h4></div>
+    
+    </div>
+
+     </section>
+
+     <section class="w-full h-[550px] mt-[150px]" style="background-image: url(/img/Rectangle\ 63.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <div class="h-[550px] w-full" style=" background: linear-gradient(to right, rgba(45,54,143,0.9),rgba(45,54,143,0.7), rgba(45,54,143,0.1));"><h3 class="text-[49px] text-zinc-50 font-medium ml-24 pt-28 ">Let Our Work Together<br>
+            Fuel Progress and Drive<br>
+            Innovation.</h3></div>
+<a class="bg-[#F36B31] text-zinc-50 text-[20px] py-5 px-[30px] rounded-[38px] absolute top-[4000px] ml-24" href="#">Contact us</a>
+     </section>
+
+     <section class="flex flex-col pt-[130px] gap-[60px]">
+<div class="flex items-center justify-center gap-[80px]"><img class=" h-[100px]" src="/img/image 47.png" alt="logo"> <img class="h-[80px]" src="/img/image 48.png" alt="logo"> <img class="h-[100px]" src="/img/image 64.png" alt="logo"> <img class="h-[100px]" src="/img/image 50.png" alt="logo"> <img class="h-[80px]" src="/img/image 52.png" alt="logo"> <img class="h-[60px]" src="/img/image 65.png" alt="logo"></div>
+<div class="flex items-center justify-center gap-[80px]"><img class=" h-[35px]" src="/img/image 68.png" alt="logo"> <img class="h-[60px]" src="/img/image 56.png" alt="logo"> <img class="h-[50px]" src="/img/image 57.png" alt="logo"> <img class="h-[80px]" src="/img/image 58.png" alt="logo"> <img class="h-[30px]" src="/img/image 59.png" alt="logo"> <img class="h-[40px]" src="/img/image 71.png" alt="logo"></div>
+<div class="flex items-center pl-24 gap-[80px]"><img class=" h-[100px]" src="/img/image 61.png" alt="logo"> <img class="h-[80px]" src="/img/Mask group (1).png" alt="logo"> <img class="h-[100px]" src="/img/Mask group (2).png" alt="logo"> 
+<div></div>
+<div></div>
+     </section>
+
+     <section>
+        <h4 class="text-[50px] text-[#2D368F] font-bold text-center pt-[120px]">Download<br>
+        Our Company Profile
+        </h4>
+        <div class="m-auto w-[15%] pt-[60px]"><a class="bg-[#F36B31] py-5 px-[30px] text-[20px] text-zinc-50 rounded-[38px]">Download file</a></div>
+
+        <footer class="w-full h-[651px] bg-[#161964] mt-[170px] flex flex-col">
+
+<div class="flex">
+<div class="w-[698px] h-[75px] bg-[#2D368F] flex items-center pl-24 gap-11"><img class="w-[20px] h-[23px]" src="/img/Vector.png" alt=""><h4 class="text-white font-semibold text-[20px]">+234 813 620 4042</h4></div>
+<div class="w-[698px] h-[75px] bg-[#FF8652] flex items-center pl-24 gap-[50px]"><h4 class="font-semibold text-[20px] text-[#161964]">Schedule a call for consultation</h4><img class="w-[21px] h-[21px]" src="/img/Polygon 1.png" alt=""></div>
+
+</div>
+<div class="flex pl-24 pt-[120px] gap-[100px]">
+
+<div class="flex flex-col gap-4">
+<h4 class="text-[#FF8652] text-[32px] font-semibold">Exploring Possibilities, Delivering Solutions.</h4>
+<h5 class="text-[17px] text-white">Investing in cutting-edge technology, our oil & gas operations strive to meet <br>
+    global energy demands sustainably.</h5>
+</div>
+
+<div><h5 class="text-[22px] text-white">T: +234 806 691 9138<br>
+    E: info@globalwavelimited.com<br>
+    29b Colorado Street Maitama,<br>
+    Minister’s Hills, Abuja</h5>
+</div>
+
+</div>
+
+
+<div class="flex items-center justify-between mt-[150px]">
+
+<div class="pl-20"><a href="#"><img class="h-[80px] w-[227px]" src="/img/GW_logo-01 16.svg" alt=""></a></div>
+<div class="flex gap-2 mr-24"><a href="#"><img class="h-[31px] w-[31px]" src="/img/Group (1).png" alt=""></a> <a href="#"><img class="w-[31px] h-[31px]" src="/img/Group (2).png" alt=""></a> <a href="#"><img class="w-[31px] h-[31px]" src="/img/Group.png" alt=""></a></div>
+
+
+</div>
+
+        </footer>
+</body>
+</html>
